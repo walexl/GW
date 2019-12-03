@@ -23,14 +23,17 @@
 #define MY_MQTT_SUBSCRIBE_TOPIC_PREFIX "smartHomeGW-in"
 
 // Set MQTT client id
-#define MY_MQTT_CLIENT_ID "smartHomeGW-1"
+#define MY_MQTT_CLIENT_ID "smartHomeGW"
 
 #include <MySensors.h>
+#include "test.h"
+
 int flag;
 
-void setup()
+void setup() 
 {
-	flag=1;  
+  function();
+  flag=1;
 }
 
 void presentation()
