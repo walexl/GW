@@ -1,5 +1,5 @@
 // Enable debug prints to serial monitor
-#define MY_DEBUG
+//#define MY_DEBUG
 // Use a bit lower baudrate for serial prints on ESP8266 than default in MyConfig.h
 #define MY_BAUD_RATE 115200
 // Enables and select radio type (if attached)
