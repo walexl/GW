@@ -26,13 +26,13 @@
 #define MY_MQTT_CLIENT_ID "smartHomeGW"
 
 #include <MySensors.h>
-#include "test.h"
+// #include "test.h"
 
 int flag;
 
 void setup() 
 {
-  function();
+  // function();
   flag=1;
 }
 
